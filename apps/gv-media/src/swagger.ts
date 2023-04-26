@@ -3,11 +3,11 @@ import { DocumentBuilder, SwaggerCustomOptions } from "@nestjs/swagger";
 export const swaggerPath = "api";
 
 export const swaggerDocumentOptions = new DocumentBuilder()
-  .setTitle("gv media")
+  .setTitle("gv media-1")
   .setDescription(
     '\n\n## Congratulations! Your service resource is ready.\n  \nPlease note that all endpoints are secured with JWT Bearer authentication.\nBy default, your service resource comes with one user with the username "admin" and password "admin".\nLearn more in [our docs](https://docs.amplication.com)'
   )
-  .setVersion("9xov42iy")
+  .setVersion("x7q5fbq3")
   .addBearerAuth()
   .build();
 
@@ -17,5 +17,5 @@ export const swaggerSetupOptions: SwaggerCustomOptions = {
   },
   customCssUrl: "../swagger/swagger.css",
   customfavIcon: "../swagger/favicon.png",
-  customSiteTitle: "gv media",
+  customSiteTitle: "gv media-1",
 };

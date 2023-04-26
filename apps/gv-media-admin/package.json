@@ -1,5 +1,5 @@
 {
-  "name": "@gv-media/admin",
+  "name": "@gv-media-1/admin",
   "private": true,
   "dependencies": {
     "@apollo/client": "3.6.9",
